@@ -24,12 +24,12 @@ const footerSections = [
 const Footer = () => {
   return (
     <footer className='bg-[#f5f7fc] border-t border-[#d8dde5] text-gray-600'>
-      <div className='mx-6 sm:mx-12 lg:mx-24 xl:mx-32 py-14 flex flex-col gap-12'>
-        <div className='grid gap-12 lg:grid-cols-[minmax(0,1.7fr)_repeat(3,minmax(0,1fr))]'>
-          <div className='flex flex-col gap-5 max-w-xl'>
+      <div className='mx-auto w-full max-w-7xl px-8 sm:px-12 lg:px-20 py-10 flex flex-col gap-10'>
+        <div className='grid gap-12 lg:gap-14 lg:grid-cols-5'>
+          <div className='flex flex-col gap-5 lg:col-span-2 max-w-xl'>
             <div className='flex items-center gap-3 text-gray-900'>
               <div className='h-11 w-11 rounded-full bg-primary/10 flex items-center justify-center'>
-                <img src="./favicon.svg" alt="logo" />
+                <img src="/favicon.svg" alt="logo" />
               </div>
               <h2 className='text-3xl font-semibold'>IntelliBlog</h2>
             </div>
